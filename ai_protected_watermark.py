@@ -53,7 +53,7 @@ if __name__ == "__main__":
     file_path = filedialog.askopenfilename(title="choose one（JPG/PNG）")
 
     if not file_path:
-        print("nigger just choose one")
+        print("ayo just choose one")
     else:
         out_path = os.path.join(os.path.dirname(__file__), "protected.png")
         add_protective_watermark(
